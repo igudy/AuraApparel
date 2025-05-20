@@ -13,6 +13,7 @@ const Home = () => {
       <p className="font-khand text-base">Khand body text</p>
       <span className="font-sfpro font-bold">SF Pro Bold text</span> */}
 
+      {/* add real text and format text for mobile */}
       <Navbar />
       <Hero />
       <FirstSection />

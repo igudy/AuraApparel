@@ -56,7 +56,7 @@ const FirstSection = () => {
           eventually appear.
         </motion.div>
 
-        <div className="relative py-8 lg:py-16 px-4 lg:px-8 flex flex-col lg:flex-row gap-8">
+        <div className="relative py-8 lg:py-16 px-4 lg:px-8 flex flex-col lg:flex-row gap-8 items-center lg:items-start justify-center">
           {/* Product Card 1 */}
           <motion.div
             variants={itemVariants}
