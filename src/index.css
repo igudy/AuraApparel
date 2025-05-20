@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#040404];
+  @apply font-sans;
+  @apply text-white;
+}
+
+/* index.css or main.css */
+@font-face {
+  font-family: "Hiragino";
+  src: url("/src/fonts/hirangino/Hiragino.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Khand";
+  src: url("/src/src/fonts/khand/Khand-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Khand";
+  src: url("/src/fonts/khand/Khand-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Khand";
+  src: url("/src/fonts/khand/Khand-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Khand";
+  src: url("/src/fonts/khand/Khand-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Khand";
+  src: url("/src/fonts/khand/Khand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/src/fonts/sf-pro/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/src/fonts/sf-pro/SFPRODISPLAYSEMIBOLDITALIC.OTF")
+    format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("/src/fonts/sf-pro/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: 700;
+}
